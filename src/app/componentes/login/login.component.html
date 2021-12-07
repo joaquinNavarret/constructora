@@ -1,0 +1,24 @@
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+      <!-- Tabs Titles -->
+  
+      <!-- Icon -->
+      <div class="fadeIn first">
+        <img src="https://us.123rf.com/450wm/jossdiim/jossdiim1904/jossdiim190400014/124117337-ilustraci%C3%B3n-de-vector-de-arquitecto-e-ingeniero-de-la-construcci%C3%B3n-hombre-en-casco-comprobaci%C3%B3n-de-c.jpg?ver=6" id="icon" alt="User Icon" />
+        <h1>Arcadian</h1>
+      </div>
+  
+      <!-- Login Form -->
+      <form [formGroup]="formularioLogin">
+        <input formControlName= "usuario" type="text" id="login" class="fadeIn second" name="login" placeholder="username">
+        <input formControlName= "contraseña" type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+        <input type="submit" class="fadeIn fourth" value="Log In" (click)="iniciarSesion()">
+      </form>
+  
+      <!-- Remind Passowrd -->
+      <div id="formFooter">
+        <a class="underlineHover" href="inicio">volver al inicio</a>
+      </div>
+  
+    </div>
+  </div>
